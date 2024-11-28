@@ -1,0 +1,79 @@
+<!-- File: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about health literacy and how it empowers individuals to make better health decisions.">
+    <title>Health Literacy Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Health Literacy Hub</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h2>Empowering Health Through Knowledge</h2>
+            <p>Your trusted source for clear and actionable health information.</p>
+            <a href="#resources" class="btn">Explore Resources</a>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>At Health Literacy Hub, our mission is to empower individuals with the knowledge and tools they need to take control of their health.</p>
+        </section>
+
+        <section id="resources" class="section">
+            <h2>Health Resources</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Nutrition</h3>
+                    <p>Learn about balanced diets, healthy recipes, and more.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="card">
+                    <h3>Mental Health</h3>
+                    <p>Explore tips and resources for maintaining mental wellness.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="card">
+                    <h3>Exercise</h3>
+                    <p>Discover exercises and tips for staying active and healthy.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Health Literacy Hub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
